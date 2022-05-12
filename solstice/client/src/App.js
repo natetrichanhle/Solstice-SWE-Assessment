@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// importing component file so that I can render it 
+import ListenHistoryDisplay from './components/ListenHistoryDisplay';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* calling onto component file to render */}
+      <ListenHistoryDisplay />
     </div>
   );
 }
