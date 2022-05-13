@@ -10,8 +10,8 @@ Tools needed to be installed:
 Steps to run the project:
 1. clone the github repo
 2. once you've opened the project, open the project terminal
-3. type these following commands: 
+3. type these following commands into the terminal: 
 - cd solstice
 - cd client
-4. then run: 
+4. then type this into the terminal: 
 - npm run start
