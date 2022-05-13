@@ -11,7 +11,8 @@ Steps to run the project:
 1. clone the github repo
 2. once you've opened the project, open the project terminal
 3. type these following commands into the terminal: 
+- npm install
 - cd solstice
 - cd client
-4. then type this into the terminal: 
+5. then to run the project type this into the terminal: 
 - npm run start
